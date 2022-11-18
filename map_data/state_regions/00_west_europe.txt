@@ -1,4 +1,192 @@
-﻿STATE_SVEALAND = {
+﻿
+STATE_MED = {
+    id = 101
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x2CFAFA x40D9DB x3BDCFA x46C8FA x47DCFA x48FAFA }
+
+    city = "x2CFAFA"
+    farm = "x40D9DB"
+    mine = "x3BDCFA"
+    wood = "x46C8FA"
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" }
+    capped_resources = {
+        bg_iron_mining = 40
+    }
+}
+
+STATE_NORTH_ATLANTIC = {
+    id = 102
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x08FAFA x0AC8FA x0FDCFA x0EC8FA x0D61A4 x14FAFA x709ACF x16FAFA x2DAEF1 x6DFBFB x1B77CD x15C8C8 xC64499 xDA6DF6 x837BBA x807D98 x807D99 x6643E1 x3DCACA xB14DEF xA05EB0 x43DEFC x6C8AB3 xCF4DEF x9F5EB0 xD55EAD xC25EAE x9137A4 x9F5EAE x9F5CAE }
+
+    city = "x08FAFA"
+    farm = "x0AC8FA"
+    mine = "x0FDCFA"
+    wood = "x0EC8FA"
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" }
+    capped_resources = {
+        bg_iron_mining = 40
+    }
+}
+
+STATE_SOUTH_ATLANTIC = {
+    id = 103
+    provinces = { x6DC9F4 x79CBFD x405E94 x9F2781 x65CBFC x8ADE90 xB56DB4 x6AC3EC x72CBFD x316868 }
+
+    city = "x6DC9F4"
+    farm = "x79CBFD"
+    mine = "x405E94"
+    wood = "x9f2781"
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" }
+    capped_resources = {
+        bg_iron_mining = 40
+    }
+}
+
+STATE_INDIAN_OCEAN = {
+    id = 104
+    provinces = { x6FDEFC x65CDFC x924CE0 xDB38A3 x6640E1 x49C9C9 x6F4CE0 x405B94 }
+
+    city = "x6FDEFC"
+    farm = "x65CDFC"
+    mine = "x924CE0"
+    wood = "xDB38A3"
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" }
+    capped_resources = {
+        bg_iron_mining = 40
+    }
+}
+
+STATE_ANTARTIC_OCEAN = {
+    id = 105
+    provinces = { x6FB3DE }
+
+    city = "x6FB3DE"
+
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" }
+    capped_resources = {
+        bg_iron_mining = 10
+    }
+}
+
+STATE_SOUTH_PACIFIC = {
+    id = 106
+    provinces = { x445572 x3B70B1 x2D4F87 x81A0D2 x48FDFD x92AED0 x80C3E0 x91ffff x2863CB x340EEC x80C3E1 x340EEC x80C2E0 x405D92 }
+
+    city = "x445572"
+    farm = "x3B70B1"
+    mine = "x2D4F87"
+    wood = "x81A0D2"
+
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" }
+    capped_resources = {
+        bg_iron_mining = 10
+    }
+}
+
+STATE_AMERICAS_COASTLINES = {
+    id = 107
+    provinces = { x69C9C9 x74FBFB x0DCACA xA3CEF4 x0ECACA x0D74CA x1FC9E5 xA3CDF4 x18FCFC x1ACAFC x4499CD x1FDEFC x858CBF x26CAFC x29CACA x0D61DC x2BDEFC x31CACA x16FCFA x36CAFC }
+
+    city = "x69C9C9"
+    farm = "x74FBFB"
+    mine = "x0DCACA"
+    wood = "xA3CEF4"
+
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" }
+    capped_resources = {
+        bg_iron_mining = 10
+    }
+
+}
+
+STATE_EASTERN_ATLANTIC_COASTLINE = {
+    id = 108
+    provinces = { x2A95FA x5FDDFB x4989FF x386DCD x51B8B8 x56C9FB }
+
+    city = "x2A95Fa"
+    farm = "x5FDDFB"
+    mine = "x4989FF"
+    wood = "x386DCD"
+
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" }
+    capped_resources = {
+        bg_iron_mining = 15
+    }
+}
+
+STATE_INDIAN_OCEAN_COASTLINE = {
+    id = 109
+    provinces = { x78FCFC x4FDDFB x6EDBDB x2B5CB8 x4FDCFA x56C8FA x54FAFA x6FDEFC x5CFAFA x61C8C8 x66C8FA x63DCFA x6BDCFA x28FBFB }
+
+    city = "x78FCFC"
+    farm = "x4FDDFB"
+    mine = "x6EDBDB"
+    wood = "x2B5CB8"
+
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" }
+    capped_resources = {
+        bg_iron_mining = 100
+    }
+}
+
+STATE_I_HAVE_NO_IDEA = {
+    id = 110
+    provinces = { x19C9C9 x21C9C9 x39C9C9 x16C9FB x76C8FA x75C8C8 x74FAFA x0FDDFB x7BDCFA x7EC8FA x00FBFB x03DDFB }
+
+    city = "x19C9C9"
+    farm = "x21C9C9"
+    mine = "x39C9C9"
+    wood = "x16C9FB"
+
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" }
+    capped_resources = {
+        bg_iron_mineing = 77
+    }
+}
+
+STATE_I_HAVE_NO_IDEA_TWO = {
+    id = 111
+    provinces = { x6147C1 xBD2C99 x755BD2 x982455 xA87DDC xA63565 xD26392 x561AA0 xA685CF xDB3C7F x6644E1 xDB3CA3 xE10DAD xA729A6 x22CBFD x2897CB x2861CB x721B9A x405B92 x5684CF xA63FD5 x9A1B99 x85A2D7 x0DFEE0 x32C9FB x340EED x807D97 x39CACA x70FBFB x20CCE0 x43DDFB x13CCFE x341ABA }
+
+    city = "x6147C1"
+    farm = "xBD2C99"
+    mine = "x755BD2"
+    wood = "x982455"
+
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" }
+    capped_resources = {
+        bg_iron_mining = 33
+    }
+}
+
+STATE_I_HAVE_NO_IDEA_THREE = {
+    id = 112
+    provinces = { x3d6a6a xb6cece }
+
+    arable_land = 50
+    arable_resources = { "bg_rye_farms" }
+    capped_resources = {
+        bg_iron_mining = 17
+    }
+
+}
+
+
+
+
+STATE_SVEALAND = {
     id = 1
     subsistence_building = "building_subsistence_farms"
     provinces = { "x0974E5" "x216569" "x24A2F1" "x298E7B" "x317138" "x36F523" "x3844C0" "x3E2C22" "x404643" "x41C729" "x432E07" "x45B6EF" "x4628A5" "x4836F2" "x4B02EB" "x4C9918" "x4FA424" "x604060" "x62D0D4" "x656512" "x6CF949" "x6E95C2" "x6F40EC" "x823263" "x8AC21D" "x90845E" "x93C3BC" "x93C76C" "x9686A5" "x9BBBE3" "xA001A0" "xA08021" "xA6C31B" "xA82FF7" "xA86C50" "xA9078A" "xB3F1FB" "xB90566" "xB9391F" "xBC0288" "xC0C0E0" "xC480A5" "xC8AEAF" "xCBFD28" "xCF16B1" "xD155CE" "xD702F7" "xD96FB9" "xE6C5FC" "xE7A6D6" "xE9B084" "xEA6A0F" "xEB5D5F" "xEFA14D" "xF08323" "xF48646" "xF8E400" "xFCCAFA" }
