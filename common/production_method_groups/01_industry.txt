@@ -9,6 +9,21 @@ pmg_base_building_computer_industry = {
 	}
 }
 
+pmg_base_oxygen_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_basic_oxygen_production
+		pm_oxygen_production
+	}
+}
+
+pmg_base_rocketry_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_rockets
+	}
+}
+
 ###############
 
 

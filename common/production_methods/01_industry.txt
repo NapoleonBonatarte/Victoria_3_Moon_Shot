@@ -15,6 +15,52 @@ pm_computers = {
 	}
 }
 
+pm_basic_oxygen_production = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+
+			#input
+			building_input_fertilizer = 5
+
+			#output
+			building_output_oxygen_add = 100
+		}
+	}
+}
+
+pm_oxygen_production = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+
+			#input
+			building_input_fertilizer = 10
+
+			#output
+			building_output_oxygen_add = 500
+		}
+	}
+}
+
+pm_rockets = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+
+	building_modifers = {
+		workforce_scaled = {
+			#input
+			building_input_oil_add = 10
+			building_input_steel_add = 15
+			building_input_computers_add = 20
+
+			#output
+			building_output_rockets_add = 1
+		}
+	}
+}
+
 
 #############
 

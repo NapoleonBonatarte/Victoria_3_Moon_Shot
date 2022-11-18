@@ -76,6 +76,23 @@ ironclads = {
 # STAPLE #
 ##########
 
+# NEWLY ADDED #
+
+
+oxygen = {
+	texture = "gfx/interface/icons/goods_icons/grain.dds"
+	cost = 5
+	category = staple
+	
+	prestige_factor = 1
+
+	traded_quantity = 10
+	convoy_cost_multipluer = 0.75
+
+	consumption_tax_cost = 1000
+}
+
+###############
 grain = {
 	texture = "gfx/interface/icons/goods_icons/grain.dds"
 	cost = 20
@@ -220,11 +237,31 @@ electricity = {
 # NEWLY ADDED #
 
 computers = {
-	texture = "gfx/interface/icons/goods_icons/steel.dds"
+	texture = "gfx/interface/icons/goods_icons/computers.dds"
 	cost = 50
 	category = industrial
 	
 	prestige_factor = 5
+}
+
+rockets = {
+	texture = "gfx/interface/icons/goods_icons/computers.dds"
+	cost = 500
+	category = industrial
+
+	prestige_factor = 15
+	traded_quantity = 10
+	convoy_cost_multiplier = 0.75
+}
+
+space_ship = {
+	texture = "gfx/interface/icons/goods_icons/computers.dds"
+	cost = 1000
+	category = industrial
+	
+	prestige_factor = 25
+	traded_quantity = 11
+	convoy_cost_multiplier = 0.75
 }
 
 ###############

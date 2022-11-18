@@ -5,6 +5,25 @@ building_output_computers_add = {
 	percent = no
 }
 
+building_output_oxygen_add = {
+	good = yes
+	percent = no
+}
+
+building_input_computers_add = {
+	good = yes
+	percent = no
+}
+
+building_output_rockets_add ={
+	good = yes
+	percent = no
+}
+
+building_input_rockets_add = {
+	good = yes
+	percent = no
+}
 ###############
 
 
